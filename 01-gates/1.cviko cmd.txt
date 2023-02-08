@@ -1,0 +1,218 @@
+Microsoft Windows [Version 10.0.19045.2486]
+(c) Microsoft Corporation. Všechna práva vyhrazena.
+
+C:\Users\240171>dir
+ Volume in drive C is SYSTEM
+ Volume Serial Number is C681-8812
+
+ Directory of C:\Users\240171
+
+08.02.2023  15:06    <DIR>          .
+08.02.2023  15:06    <DIR>          ..
+25.10.2022  11:45    <DIR>          .ms-ad
+13.09.2018  17:18    <DIR>          .oracle_jre_usage
+08.02.2023  15:06    <DIR>          .Xilinx
+21.09.2021  10:15    <DIR>          3D Objects
+07.12.2021  11:55           105 950 chladic.SLDASM
+21.09.2021  10:15    <DIR>          Contacts
+10.11.2022  14:48    <DIR>          Desktop
+08.02.2023  15:06    <DIR>          Documents
+07.12.2021  12:01           139 857 doska chladica.SLDPRT
+10.11.2022  14:37    <DIR>          Downloads
+21.09.2021  10:15    <DIR>          Favorites
+21.09.2021  10:15    <DIR>          Links
+21.09.2021  10:15    <DIR>          Music
+08.02.2023  15:05    <DIR>          OneDrive
+21.09.2021  10:15    <DIR>          Pictures
+21.09.2021  10:15    <DIR>          Saved Games
+21.09.2021  10:15    <DIR>          Searches
+21.09.2021  10:15    <DIR>          Videos
+               2 File(s)        245 807 bytes
+              18 Dir(s)  805 861 842 944 bytes free
+
+C:\Users\240171>V:
+
+V:\>dir
+ Volume in drive V is GIGADISK2_G350
+ Volume Serial Number is 94D0-D7B7
+
+ Directory of V:\
+
+09.12.2022  10:50    <DIR>          .
+09.12.2022  10:50    <DIR>          ..
+25.11.2022  09:52            89 473 after paris viliasm.sib
+02.12.2022  09:51            55 129 afternoon in paris new.sib
+24.10.2022  11:31    <DIR>          ana pocitac 3
+10.10.2022  11:39    <DIR>          ANAnum2
+10.10.2022  11:38             8 538 ananumerika2.ANO
+07.11.2022  12:19            28 363 ANApoc4_samostatná práce2.cir
+07.11.2022  12:30            25 889 ANApoc4_samostatná práce3OZ.cir
+09.12.2022  10:50            34 531 bach viliam.sib
+07.11.2022  11:38            20 462 cvika ANA 4.cir
+07.11.2022  11:38             1 081 cvika ANA 4.TNO
+07.11.2022  11:38               170 cvika ANA 4_cir.inx
+26.10.2021  10:46           123 625 dierova smakocinka.SLDPRT
+26.10.2021  11:18           111 700 disk.SLDPRT
+23.11.2021  12:19            96 294 Díl1.SLDDRW
+23.11.2021  12:19            78 635 Díl1.SLDPRT
+26.10.2021  11:39            62 000 elko.SLDPRT
+13.10.2022  15:52            96 781 jv.PNG
+26.09.2022  14:02    <DIR>          meranie mvaa
+10.10.2022  13:33            68 323 Nobelovacenazafyziku.png
+23.11.2021  12:39    <DIR>          public
+21.11.2022  12:30            16 267 referencnizdrojnapetiseZD-MC-cv05.cir
+23.11.2021  12:38           117 874 stolcek.SLDDRW
+23.11.2021  12:33            66 091 stolcek.SLDPRT
+21.11.2022  12:30            17 395 teplotnikompenzace-cv05.cir
+21.11.2022  12:30            18 201 widlarovoproudovezrcadlo-cv05.cir
+21.11.2022  12:30            18 056 wilsonovoproudovezrcadlo-cv05.cir
+10.11.2022  14:49    <DIR>          Windows User Profile.V6
+21.11.2022  12:30            21 266 zdrojproudurizenenapetim-cv05.cir
+              23 File(s)      1 176 144 bytes
+               7 Dir(s)  3 452 359 303 168 bytes free
+
+V:\>git clone https://github.com/ViliamKristof/DE1_kristof
+Cloning into 'DE1_kristof'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (9/9), done.
+
+V:\>mkdir 01-gates
+
+V:\>cd
+V:\
+
+V:\>cd DE1_Kristof
+
+V:\DE1_kristof>mkdir
+The syntax of the command is incorrect.
+
+V:\DE1_kristof> mkdir 01-gates
+
+V:\DE1_kristof>01-gates>nul > readme.md
+'01-gates' is not recognized as an internal or external command,
+operable program or batch file.
+
+V:\DE1_kristof>cd
+V:\DE1_kristof
+
+V:\DE1_kristof>01-gates
+'01-gates' is not recognized as an internal or external command,
+operable program or batch file.
+
+V:\DE1_kristof>cd 01-gates
+
+V:\DE1_kristof\01-gates>cd
+V:\DE1_kristof\01-gates
+
+V:\DE1_kristof\01-gates>cd DE1_kristof
+Systém nemůže nalézt uvedenou cestu.
+
+V:\DE1_kristof\01-gates>cd DE1_Kristof
+Systém nemůže nalézt uvedenou cestu.
+
+V:\DE1_kristof\01-gates>cd ..
+
+V:\DE1_kristof>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        01-gates/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+V:\DE1_kristof>git add .
+
+V:\DE1_kristof>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   01-gates/1.cviko cmd.txt
+        new file:   01-gates/readme.txt
+        modified:   README.md
+
+
+V:\DE1_kristof>git commit -m "folder 01-gates created"
+[main 7c89fef] folder 01-gates created
+ Committer: Krištof Viliam (240171) <240171@vutbr.cz>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 41 insertions(+), 4 deletions(-)
+ create mode 100644 01-gates/1.cviko cmd.txt
+ create mode 100644 01-gates/readme.txt
+
+V:\DE1_kristof>git config user.name "Viliam Kristof"
+
+V:\DE1_kristof>git config user.name "Krištof Viliam"
+
+V:\DE1_kristof>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+V:\DE1_kristof>git push
+info: please complete authentication in your browser...
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 1.07 KiB | 99.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ViliamKristof/DE1_kristof
+   db2aaac..7c89fef  main -> main
+
+V:\DE1_kristof>git add .
+
+V:\DE1_kristof>git commit -m "zmena pripony readme"
+[main 44f1740] zmena pripony readme
+ Committer: Krištof Viliam <240171@vutbr.cz>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename 01-gates/{readme.txt => readme.md} (100%)
+
+V:\DE1_kristof>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 349 bytes | 87.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ViliamKristof/DE1_kristof
+   7c89fef..44f1740  main -> main
+
+V:\DE1_kristof>
