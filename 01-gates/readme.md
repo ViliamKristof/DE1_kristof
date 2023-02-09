@@ -1,4 +1,4 @@
-# Lab 1: INSERT_YOUR_FIRSTNAME INSERT_YOUR_LASTNAME
+# Lab 1: Viliam Krištof
 
 ### De Morgan's laws
 
