@@ -5,16 +5,19 @@
 1. Karnaugh maps for other two functions of 2-bit comparator:
 
    Greater than:
+![BvacsieakoA](https://user-images.githubusercontent.com/124798762/220157697-18af005b-f3a0-4707-9917-4fee5b10b50a.jpg)
 
-   ![K-maps](images/kmap_empty.png)
+  
 
    Less than:
+![BmensieakoA](https://user-images.githubusercontent.com/124798762/220157719-56feae80-ada9-4f36-ac0d-f88604c6d290.jpg)
 
-   ![K-maps](images/kmap_empty.png)
+
 
 2. Mark the largest possible implicants in the K-map and according to them, write the equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
 
-   ![Logic functions](images/comparator_min.png)
+![rovnice](https://user-images.githubusercontent.com/124798762/220157736-b19feb10-8dc2-4836-ae3b-f160d66b6b83.jpg)
+
 
 ### 4-bit comparator
 
@@ -22,30 +25,37 @@
 
    Last two digits of my student ID: **xxxx??**
 
-```vhdl
-    p_stimulus : process
-    begin
+p_stimulus : process
+        begin
         -- Report a note at the beginning of stimulus process
-        report "Stimulus process started";
+        report "Stimulus process started" severity note;
 
         -- First test case
-        s_b <= "BCD_OF_YOUR_SECOND_LAST_ID_DIGIT"; -- Such as "0101" if ID = xxxx56
-        s_a <= "BCD_OF_YOUR_LAST_ID_DIGIT";        -- Such as "0110" if ID = xxxx56
+        s_b <= "0111"; --číšlo 7 
+        s_a <= "0001"; --čislo 1
         wait for 100 ns;
         -- Expected output
-        assert ((s_B_greater_A = 'WRITE_CORRECT_VALUE_HERE') and
-                (s_B_equals_A  = 'WRITE_CORRECT_VALUE_HERE') and
-                (s_B_less_A    = 'WRITE_CORRECT_VALUE_HERE'))
+        assert ((s_B_greater_A = '1') and
+                (s_B_equals_A  = '0') and
+                (s_B_less_A    = '0'))
         -- If false, then report an error
-        report "Input combination COMPLETE_THIS_TEXT FAILED" severity error;
-
+        report "Input combination b=0111; a=0001 FAILED" severity error;
+        
+         -- Second test case
+        s_b <= "0111"; 
+        s_a <= "0001";
+        wait for 100 ns;
+        -- Expected output
+        assert ((s_B_greater_A = '1') and --vypíše chybu
+                (s_B_equals_A  = '0') and
+                (s_B_less_A    = '1'))
+        -- If false, then report an error
+        report "Input combination b=0111; a=0001 FAILED" severity error;
         -- Report a note at the end of stimulus process
-        report "Stimulus process finished";
+        report "Stimulus process finished" severity note;
         wait;
-    end process p_stimulus;
-```
 
 2. Link to your public EDA Playground example:
 
-   [https://www.edaplayground.com/...](https://www.edaplayground.com/...)
+   [https://www.edaplayground.com/...](https://edaplayground.com/x/iB_M)
 
