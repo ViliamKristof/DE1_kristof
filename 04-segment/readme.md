@@ -65,9 +65,8 @@
 
 4. Screenshot with simulated time waveforms for LED(7:4). Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure]()
+   ![<img width="1316" alt="screenshot_VK" src="https://user-images.githubusercontent.com/124798762/222696160-5e2eb223-d408-44c3-b91f-913db0752da4.png">
+]()
 =======
 
-   architecture from source file `top.vhd`. Try to write logic functions as simple as possible. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
-
-   ```vhdLED(7:4). Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the approp
+  
