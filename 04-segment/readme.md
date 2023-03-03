@@ -4,26 +4,6 @@
 
 1. Complete the truth table for LEDs(7:4) according to comments in source code.
 
-   | **Symbol** | **Inputs** | **a** | **b** | **c** | **d** | **e** | **f** | **g** |
-   | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-   | 0 | 0000 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
-   | 1 | 0001 | 1 | 0 | 0 | 1 | 1 | 1 | 1 |
-   | 2 | 0010 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
-   | 3 | 0011 | 0 | 0 | 0 | 0 | 1 | 1 | 0 |
-   | 4 | 0100 | 1 | 0 | 0 | 1 | 1 | 0 | 0 |
-   | 5 | 0101 | 0 | 1 | 0 | 0 | 1 | 0 | 0 |
-   | 6 | 0110 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
-   | 7 | 0111 | 0 | 0 | 0 | 1 | 1 | 1 | 1 |
-   | 8 | 1000 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-   | 9 | 1001 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
-   | A | 1010 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
-   | b | 1011 | 1 | 1 | 0 | 0 | 0 | 0 | 0 |
-   | C | 1100 | 0 | 1 | 1 | 0 | 0 | 0 | 1 |
-   | d | 1101 | 1 | 0 | 0 | 0 | 0 | 1 | 0 |
-   | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
-   | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
-   
-  2. Complete the truth table for LEDs according to comments in source code above.
 
    | **Hex** | **Inputs** | **LED4** | **LED5** | **LED6** | **LED7** |
    | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -46,7 +26,7 @@
 
 
 
-3. Listing of LEDs(7:4) part of VHDL architecture from source file `top.vhd`. Try to write logic functions as simple as possible. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
+2. Listing of LEDs(7:4) part of VHDL architecture from source file `top.vhd`. Try to write logic functions as simple as possible. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
    ```vhdl
    -- Experiments on your own: LED(7:4) indicators
@@ -63,7 +43,7 @@
    -- Turn LED(7) on if input value is a power of two, ie 1, 2, 4, or 8
   	   LED(7) <= '1' when SW = "0001" or SW = "0010" or SW = "0100" or SW = "1000" else '0';
 
-4. Screenshot with simulated time waveforms for LED(7:4). Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
+3. Screenshot with simulated time waveforms for LED(7:4). Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 <img width="1316" alt="screenshot_VK" src="https://user-images.githubusercontent.com/124798762/222696244-d73a112c-390e-48c0-82af-259d31ce990b.png">
 
 
