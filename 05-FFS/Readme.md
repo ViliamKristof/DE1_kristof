@@ -4,7 +4,7 @@
 
 1. Screenshot with simulated time waveforms. Try to simulate both D- and T-type flip-flops in a single testbench with a maximum duration of 350 ns, including reset. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure]()
+![screen](https://user-images.githubusercontent.com/124798762/223757556-9dec1c0c-ccc4-4d11-9c6a-7164d549ce5b.png)
 
 ### JK Flip-flop
 
