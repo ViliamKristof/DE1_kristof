@@ -1,4 +1,4 @@
-# Lab 5: Viliam Krištof
+# Lab 5: Viliam Krištofa
 
 ## Pre-Lab preparation
 
