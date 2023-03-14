@@ -60,5 +60,6 @@ end architecture behavioral;
 ### Shift register
 
 1. Image of `top` level schematic of the 4-bit shift register. Use four D-type flip-flops and connect them properly. The image can be drawn on a computer or by hand. Always name all inputs, outputs, components and internal signals!
+![333598424_1141766153166145_4562958645349683274_n](https://user-images.githubusercontent.com/124798762/225125304-032ccf58-5911-41f5-98c9-4b04ff12a1d1.jpg)
 
-   ![your figure]()
+   
