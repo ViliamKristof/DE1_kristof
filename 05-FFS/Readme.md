@@ -17,38 +17,38 @@ architecture behavioral of jk_ff_rst is
 begin
     jk_ff_rst : process (clk) is
     begin
-        if rising_edge(clk) then
+       if rising_edge(clk) then
 
-            if (rst='1') then
-               sig_q     <= '0';
+          if (rst='1') then
+          sig_q     <= '0';
            
-            else
-                if (j='0' and k='0') then
-                    sig_q     <= sig_q;
+          else
+          if (j='0' and k='0') then
+          sig_q     <= sig_q;
                                
-                else
-                  if (j='0' and k='1') then
-                    sig_q     <= '0';  
+          else
+          if (j='0' and k='1') then
+          sig_q     <= '0';  
                   
-                  else
-                     if (j='1' and k='0') then
-                       sig_q     <= '1';
+          else
+          if (j='1' and k='0') then
+          sig_q     <= '1';
                      
-                     else
-                        if (j='1' and k='1') then
-                          sig_q     <= not sig_q;
+          else
+          if (j='1' and k='1') then
+          sig_q     <= not sig_q;
                         
-                        end if;
+          end if;
                      
-                     end if;
+          end if;
                          
-                  end if;
+          end if;
                   
-                end if;  
+          end if;  
 
-            end if;
-        end if;
-    end process jk_ff_rst;
+          end if;
+          end if;
+           end process jk_ff_rst;
     
    
     -- Output ports are permanently connected to local signal
